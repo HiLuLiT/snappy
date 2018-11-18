@@ -30,12 +30,6 @@ export default class Admin extends React.Component  {
     }
   }
 
-  // buildExplore() {
-    // return this.props.playlists.map((playlist, i) => <Playlist key={playlist.id}
-                                                              //  playlist={playlist}/>
-    // )
-  // };
-
   readData() {
     const xhr = new XMLHttpRequest();
 

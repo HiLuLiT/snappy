@@ -59,8 +59,6 @@ export default class Form extends React.Component  {
   }
 
   render() {
-    console.log('state:', this.state)
-    /* Submitting this information will save it into a JSON file */
     return (
 			<div className="modal-overlay-div">
 				<div className="modal">
