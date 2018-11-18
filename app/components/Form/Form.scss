@@ -1,0 +1,82 @@
+.modal-overlay-div {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  min-width: 700px;
+  min-height: 500px;
+  align-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  background-image: linear-gradient(125deg, #28ABE2 -26.48%, #31CAFF);
+}
+
+.modal {
+  display: flex;
+  justify-content: space-around;
+  min-width: 700px;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  overflow: auto;
+  outline: none;
+  padding: 50px;
+  z-index: 10;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 42px 0 rgba(0, 0, 0, 0.36);
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+
+    input {
+      width: 60%;
+    }
+
+    h2 {
+      margin: 0;
+    }
+
+    span {
+      display: block;
+      font-size: 14px;
+      line-height: 25px;
+      max-width: 150px;
+      font-weight: 900;
+    }
+
+    img {
+      width: 90px;
+      position: absolute;
+      bottom: 0;
+      right: 10%;
+
+    }
+  }
+
+  button {
+    display: inline-block;
+    width: 120px;
+    height: 70px;
+    
+    &.save {
+      position: absolute;
+      bottom: 10%;
+      right: 20%;
+      color: white;
+      font-size: 20px;
+      width: 10em;
+      border-radius: 35px;
+      background-image: linear-gradient(180deg, #31CAFF, #28ABE2);
+      box-shadow: 0 2px 42px 0 rgba(0, 0, 0, 0.22);
+    }
+  }
+}

@@ -1,0 +1,34 @@
+html {
+  height: 100%;
+  background-image: linear-gradient(125deg, #0CD4FF 180%, rgb(19, 182, 236))
+}
+
+.admin {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  min-width: 700px;
+
+  .table-data {
+    padding: 30px 10px;
+    background-color: white;
+    border-radius: 200px;
+    position: relative;
+
+    img {
+      width: 60px;
+      position: absolute;
+      top: -50px;
+      right: 60px;
+      z-index: -10;
+    }
+
+    tbody {
+      tr {
+        td {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
