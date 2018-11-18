@@ -13,7 +13,8 @@ node server/server.js
 3. Start:
 npm start
 
-Dashboard will be avilable at:
-localhost:8080/
-localhost:8080/admin
+Dashboards will be avilable at:
+- localhost:8080/
+
+- localhost:8080/admin
 
