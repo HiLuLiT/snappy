@@ -8,7 +8,7 @@ Or Run it locally:
 1. Install:
 npm install
 
-2. run server
+2. Run server:
 node server/server.js
 
 3. Start:
