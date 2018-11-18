@@ -3,6 +3,7 @@ snappy-test.surge.sh
 
 
 Or Run it locally:
+1. git clone 
 
 1. Install:
 npm install
